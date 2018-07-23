@@ -3,3 +3,58 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  text-align: center;
+  background-color: grey;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+
+#featuredproperty > p {
+  text-align: center;
+  max-width: 800px;
+}
+
+
+#details {
+  display: block;
+}
+
+#details>div {
+  float: left;
+
+}
+
+
+
+
+
+/* - **Update the text block**: Wouldn't it look nicer if our text was centered as well? Our image is about 900px wide, \
+so let's give all our `<p>` within `#featured-property` a hard width of 800px and center the text in there.
+
+- **Make our `#details` section horizontal**: The details section could go nicely as a footer to the page,
+instead of a vertical list. Change its `display` value to block and make sure each of the `<div>`s is `float`ing to the `left`.
+
+- **As a finishing touch**: Let's clean up the `<div>`s at the bottom of the page. All of them should have the same
+background color, centered text, and occupy 25% of the `width` of the bottom row (since we have 4 divs).
+ */
